@@ -1,0 +1,13 @@
+
+    query purchaseOrders($pageSize: Int, $pageStart: Int) {
+        purchaseOrders(pageSize: $pageSize, pageStart: $pageStart) {
+            records {
+                id
+                contact
+            }
+            pageSize
+            pageStart
+            totalRecords
+        }
+    }
+    

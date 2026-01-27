@@ -1,0 +1,15 @@
+
+    query parts($filter: PartFilter, $pageSize: Int, $pageStart: Int, $query: PartQuery) {
+        parts(filter: $filter, pageSize: $pageSize, pageStart: $pageStart, query: $query) {
+            records {
+                status
+                partNumber
+                partName
+                notes
+            }
+            pageSize
+            pageStart
+            totalRecords
+        }
+    }
+    

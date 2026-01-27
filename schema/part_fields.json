@@ -1,0 +1,876 @@
+{
+  "fields": [
+    {
+      "name": "activePersonInCharge",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "activePersonInChargePlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "activePlanner",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "activePlannerPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "approvedPrintPart",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Part",
+        "ofType": null
+      }
+    },
+    {
+      "name": "approvedPrintPartPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "bagSize",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "boxSize",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "buildScenarios",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartBuildScenarioResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "bulkImportId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "clientPartRev",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "cogsAccount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "company",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Contact",
+        "ofType": null
+      }
+    },
+    {
+      "name": "companyPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "copiedFrom",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "copiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "currentEstimate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "currentFairMarketValue",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "currentFairMarketValueBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "currentFairMarketValueByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "currentFairMarketValueDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "customerPartNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "defaultRouting",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "defaultSaleLikelihoodPercent",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "defaultSerializationPrefix",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "defaultSerializationSuffix",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "discusxml",
+      "type": {
+        "kind": "OBJECT",
+        "name": "FileWithMetadata",
+        "ofType": null
+      }
+    },
+    {
+      "name": "dollarsInInventoryForPart",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "dollarsInInventoryForPartCapped",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "drawingInformation",
+      "type": {
+        "kind": "LIST",
+        "name": null,
+        "ofType": {
+          "kind": "NON_NULL",
+          "name": null,
+          "ofType": {
+            "kind": "OBJECT",
+            "name": "PartDrawingInformation"
+          }
+        }
+      }
+    },
+    {
+      "name": "editLog",
+      "type": {
+        "kind": "OBJECT",
+        "name": "EditLog",
+        "ofType": null
+      }
+    },
+    {
+      "name": "editLogPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "estimatefolderpath",
+      "type": {
+        "kind": "OBJECT",
+        "name": "FileWithMetadata",
+        "ofType": null
+      }
+    },
+    {
+      "name": "estimateId",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Estimate",
+        "ofType": null
+      }
+    },
+    {
+      "name": "estimateIdPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "family",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fixtures",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartFixturesResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "groundZeroVerified",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groundZeroVerifiedBy",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "groundZeroVerifiedDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "ignoreSuggestedAllocationsOnBOM",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "installGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "inventoryAccount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "inventoryImportValueTotal",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "inventoryQtyForPart",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "isSerialized",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "isTemplate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "itarControlled",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "itarControlledBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "itarControlledByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "itarControlledDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastActivityDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "leadTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "leastAmountToOrder",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "leftoverParts",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartLeftoverPartsResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "legacyId",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "mainContact",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "materialSpecsCosts",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartMaterialSpecsCostResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "minimumOrderQty",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "minimumQuantityOnHand",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "minReorderPoint",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "multiplierMarkup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "netInspectImportNotes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "netinspectxml",
+      "type": {
+        "kind": "OBJECT",
+        "name": "FileWithMetadata",
+        "ofType": null
+      }
+    },
+    {
+      "name": "notes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "operations",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartOperationResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "originalSortPosition",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "packagingInstructions",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partDescription",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partDevelopment",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartProcessDevelopmentResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "partFiles",
+      "type": {
+        "kind": "OBJECT",
+        "name": "PartFiles",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partName",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partStock",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartPartStockResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "pictures",
+      "type": {
+        "kind": "OBJECT",
+        "name": "PartPictures",
+        "ofType": null
+      }
+    },
+    {
+      "name": "planningLevel",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "priceStructure",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartPriceStructureResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "pricingNotes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "printForApproval",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "printForApprovalBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "printForApprovalByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "proshopUrl",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyInWip",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "salesAccount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "sequencedetailparsefile",
+      "type": {
+        "kind": "OBJECT",
+        "name": "FileWithMetadata",
+        "ofType": null
+      }
+    },
+    {
+      "name": "shippingCost",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "specialShippingInstructions",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "standardizedLaborClass",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "status",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "taxType",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "techContact",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "techContactPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "templateGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "threeDimModel",
+      "type": {
+        "kind": "OBJECT",
+        "name": "PartThreeDimModel",
+        "ofType": null
+      }
+    },
+    {
+      "name": "tolerancesTable",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedPartTolerancesTableResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "universalProductCode",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "year",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    }
+  ],
+  "name": "Part"
+}

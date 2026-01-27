@@ -1,0 +1,1413 @@
+{
+  "fields": [
+    {
+      "name": "activeInventoryFlag",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "actualDollarAmount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "allocation",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAcceptanceReportNumber1",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAcceptanceReportNumber2",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAcceptanceReportNumber3",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAccountabilityNotes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAdditionalChanges",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asAssemblyFAI",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asBaselinePartNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asDetailFAI",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asDrawingNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asDrawingRevLevel",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asFAINotComplete",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asFullFAI",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asFunctionalTestNumber1",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asFunctionalTestNumber2",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asFunctionalTestNumber3",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asMaterialComments",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asPartialFAI",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asReasonForPartialFAI",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "assemblyClass",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "asSerialNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "averagePFIPrice",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "bagSize",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "boxSize",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "btiPrice",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "buildToInventory",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "bulkImportId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "certificationNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "class",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "contact",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "copiedFrom",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "copiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "costDisbursement",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderCostDisbursementResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "countAsOnTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "createdTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "customer",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Contact",
+        "ofType": null
+      }
+    },
+    {
+      "name": "customerPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "customerPONumber",
+      "type": {
+        "kind": "OBJECT",
+        "name": "CustomerPO",
+        "ofType": null
+      }
+    },
+    {
+      "name": "customerPONumberPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "dateShipped",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "daysToShip",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "defaultRouting",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "deliverypriority",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "drawingNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "drawingRev",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "dueDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "earlyAsPossible",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "editLog",
+      "type": {
+        "kind": "OBJECT",
+        "name": "EditLog",
+        "ofType": null
+      }
+    },
+    {
+      "name": "editLogPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "estWODollarAmount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiCustomerApproval",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiCustomerApprovalBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiCustomerApprovalByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiCustomerApprovalDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiCustomerApprovalPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiReviewedBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiReviewedByBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiReviewedByByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiReviewedByDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiReviewedByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fairMarketValue",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiSignature",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiSignatureDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiSignaturePlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "faiXMLTable",
+      "type": {
+        "kind": "OBJECT",
+        "name": "WorkOrderFAIXMLTable",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fauxGrossProfitMargin",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fauxProfit",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fauxProfitMargin",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fauxProfitPerDLH",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "fauxTotalCost",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "files",
+      "type": {
+        "kind": "OBJECT",
+        "name": "WorkOrderFiles",
+        "ofType": null
+      }
+    },
+    {
+      "name": "firstArticleRequired",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "firstArticleRequiredBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "firstArticleRequiredByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "firstArticleRequiredDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "hoursCurrentTarget",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "hoursSpentTargetDifference",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "hoursTotalSpent",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "includeNewRevTargets",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "inspectionEquipList",
+      "type": {
+        "kind": "OBJECT",
+        "name": "WorkOrderInspectionEquipList",
+        "ofType": null
+      }
+    },
+    {
+      "name": "installGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "isTemplate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "laborRunTimePerPartActual",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "laborRunTimePerPartPlannedTarget",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "laborWIP",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedByApplication",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Authorization",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "lastModifiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "leadTimes",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderLeadTimesResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "legacyId",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "mustLeaveBy",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "netinspectFiles",
+      "type": {
+        "kind": "OBJECT",
+        "name": "WorkOrderNetinspectFiles",
+        "ofType": null
+      }
+    },
+    {
+      "name": "notes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "oopBookedAndNotReceived",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "oopOrdered",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "oopReceivedAndBooked",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "oopReceivedButNotBooked",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "ops",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderOperationResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "orderStatusInfo",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderOrderStatusInfoResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "originalSortPosition",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "overheadPortionOfLaborWIP",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "packagingInstructions",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "part",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Part",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partcheckfile",
+      "type": {
+        "kind": "OBJECT",
+        "name": "FileWithMetadata",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partFamilies",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderPartFamilyResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "partPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partRev",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partstockNote",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "partStockStatuses",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderPartStockResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "personInCharge",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "personInChargePlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "pfiPrice",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "planner",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "name": "plannerDoesRunning",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "plannerDoesSetup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "name": "plannerPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "planningLevel",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "planningPercentComplete",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "preProcessingChecklist",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderPreProcessingChecklistResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "productAccountability",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderProductAccountabilityResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "profitability",
+      "type": {
+        "kind": "OBJECT",
+        "name": "WorkOrderProfitability",
+        "ofType": null
+      }
+    },
+    {
+      "name": "programmingPercentComplete",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "projectCode",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "proshopUrl",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyComplete",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyInWIP",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyNeeded",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyNotYetShipped",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "qtyShipped",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "quantityOrdered",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "quantityQueuedCalculated",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "quantityQueuedManual",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "name": "runningTimeHoursActualLabor",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "runningTimeHoursPlannedTargetLabor",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "runningTimeHoursPlannedVarianceLabor",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "salesTieIn",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderSalesTieInResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "scheduledEndDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "scheduledStartDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "setupTimeHoursActualLabel",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "setupTimeHoursPlannedTarget",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "setupTimeHoursPlannedVarianceLabor",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "specialShippingInstructions",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "standardizedLaborClass",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "standardizedLaborRate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "standardProfitmMargin",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "standardProfitPerDLH",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "status",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "templateGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "timeInSystem",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "timeSincePICAssigned",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "timeTracking",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedTimeTrackingEntryResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "timeWaitingOnFinalInspection",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "tolerancesTable",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedWorkOrderTolerancesTableResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "totalCappedWIP",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "totalUncappedWIP",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "type",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "wipCogsLabor",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "wipCogsMaterials",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "wipDirectOverhead",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "wipIndirectOverhead",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "name": "workOrderFiles",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedFileWithMetadataResult",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "workOrderNotes",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "name": "workOrderNumber",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "SCALAR",
+          "name": "String",
+          "ofType": null
+        }
+      }
+    },
+    {
+      "name": "year",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    }
+  ],
+  "name": "WorkOrder"
+}

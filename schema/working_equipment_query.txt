@@ -1,0 +1,19 @@
+
+    query equipments($pageSize: Int, $pageStart: Int) {
+        equipments(pageSize: $pageSize, pageStart: $pageStart) {
+            records {
+                equipmentNumber
+                description
+                type
+                equipmentType
+                status
+                serialNumber
+                location
+                notes
+            }
+            pageSize
+            pageStart
+            totalRecords
+        }
+    }
+    

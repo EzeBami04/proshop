@@ -1,0 +1,47 @@
+
+    query workOrders($filter: WorkOrderFilter, $pageSize: Int, $pageStart: Int, $query: WorkOrderQuery) {
+        workOrders(filter: $filter, pageSize: $pageSize, pageStart: $pageStart, query: $query) {
+            records {
+                workOrderNumber
+            scheduledStartDate
+            scheduledEndDate
+            dueDate
+            quantityOrdered
+            qtyComplete
+            qtyInWIP
+            qtyShipped
+            qtyNotYetShipped
+            dateShipped
+            daysToShip
+            status
+            hoursCurrentTarget
+            hoursTotalSpent
+            setupTimeHoursActualLabel
+            setupTimeHoursPlannedTarget
+            setupTimeHoursPlannedVarianceLabor
+            runningTimeHoursActualLabor
+            runningTimeHoursPlannedTargetLabor
+            runningTimeHoursPlannedVarianceLabor
+            laborWIP
+            standardizedLaborClass
+            standardizedLaborRate
+            standardProfitmMargin
+            actualDollarAmount
+            partPlainText
+            partRev
+            pfiPrice
+            totalCappedWIP
+            totalUncappedWIP
+            type
+            wipCogsLabor
+            wipCogsMaterials
+            wipDirectOverhead
+            wipIndirectOverhead
+                
+            }
+            pageSize
+            pageStart
+            totalRecords
+        }
+    }
+    

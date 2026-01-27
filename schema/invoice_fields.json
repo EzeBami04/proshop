@@ -1,0 +1,588 @@
+{
+  "description": null,
+  "fields": [
+    {
+      "description": "Bulk Import Id",
+      "name": "bulkImportId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": null,
+      "name": "clientPartNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": null,
+      "name": "clientPoNum",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "ID of record from which this record was copied",
+      "name": "copiedFrom",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Timestamp when this record was copied",
+      "name": "copiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Timestamp when this record was created",
+      "name": "createdTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Payment Currency\nThe currency in which the customer this Invoice is going to, will make payments in.",
+      "name": "currency",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Localized Currency Format",
+      "name": "currencyLocale",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Customer PO #",
+      "name": "customerPO",
+      "type": {
+        "kind": "OBJECT",
+        "name": "CustomerPO",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Customer PO #",
+      "name": "customerPOPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Date Shipped",
+      "name": "dateIssued",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Discount",
+      "name": "discount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Edit Log Id",
+      "name": "editLog",
+      "type": {
+        "kind": "OBJECT",
+        "name": "EditLog",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Edit Log Id",
+      "name": "editLogPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Exchange Rate\nLast updated on __|date|__ by: __|userLink|__",
+      "name": "exchangeRate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Exchange Rate Actual\nThe actual exchange rate value from the Exchange Rate Management table based on the exchange rate date",
+      "name": "exchangeRateActual",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Exchange Rate Actual Matches Management\nIndicates whether the actual exchange rate matches the current Management table value for the same date",
+      "name": "flExchangeRateActualMatchesManagement",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "description": "FOB",
+      "name": "freeOnboard",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Incoterms",
+      "name": "incoterms",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Install Group",
+      "name": "installGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Invoice Date",
+      "name": "invoiceDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": null,
+      "name": "invoicedDollars",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Due Date",
+      "name": "invoiceDueDate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Invoice Id",
+      "name": "invoiceId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Is Template?",
+      "name": "isTemplate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Items",
+      "name": "items",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "OBJECT",
+          "name": "PaginatedInvoiceItemResult"
+        }
+      }
+    },
+    {
+      "description": "Modified by",
+      "name": "lastModifiedBy",
+      "type": {
+        "kind": "OBJECT",
+        "name": "User",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Modified by",
+      "name": "lastModifiedByApplication",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Authorization",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Modified by",
+      "name": "lastModifiedByPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Last modified time",
+      "name": "lastModifiedTime",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": null,
+      "name": "legacyId",
+      "type": {
+        "kind": "NON_NULL",
+        "name": null,
+        "ofType": {
+          "kind": "SCALAR",
+          "name": "String"
+        }
+      }
+    },
+    {
+      "description": "Message After Table",
+      "name": "messageAfterTable",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "An integer representing the object's position in the original sorted list result.",
+      "name": "originalSortPosition",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Origin",
+      "name": "originCode",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Payment Terms",
+      "name": "paymentTerms",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Payment Terms Discount",
+      "name": "paymentTermsDiscount",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Payment Terms Discount Days",
+      "name": "paymentTermsDiscountDays",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Int",
+        "ofType": null
+      }
+    },
+    {
+      "description": "URL of object resource in proshop",
+      "name": "proshopUrl",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Tax Type",
+      "name": "recordTaxRate",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Tax Rate %",
+      "name": "recordTaxRatePercent",
+      "type": {
+        "kind": "SCALAR",
+        "name": "Float",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Shipped To",
+      "name": "shippedTo",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Contact",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Shipped To",
+      "name": "shippedToPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To Address",
+      "name": "shipToAddress",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To Addressee",
+      "name": "shipToAddressee",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To City",
+      "name": "shipToCity",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To Country",
+      "name": "shipToCountry",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To Phone #",
+      "name": "shiptoPhoneNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To State",
+      "name": "shipToState",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship To Zip Code",
+      "name": "shipToZipCode",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Ship Via",
+      "name": "shipVia",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To",
+      "name": "soldTo",
+      "type": {
+        "kind": "OBJECT",
+        "name": "Contact",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To Address",
+      "name": "soldToAddress",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To Addressee",
+      "name": "soldToAddressee",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To City",
+      "name": "soldToCity",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To Country",
+      "name": "soldToCountry",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": null,
+      "name": "soldToId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To Phone #",
+      "name": "soldtoPhoneNumber",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To",
+      "name": "soldToPlainText",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To State",
+      "name": "soldToState",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Sold To Zip Code",
+      "name": "soldToZipCode",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Status",
+      "name": "status",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Template Group",
+      "name": "templateGroup",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Template Id",
+      "name": "templateId",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    },
+    {
+      "description": "Year",
+      "name": "year",
+      "type": {
+        "kind": "SCALAR",
+        "name": "String",
+        "ofType": null
+      }
+    }
+  ],
+  "name": "Invoice"
+}
