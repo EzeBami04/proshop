@@ -5,10 +5,10 @@ import  logging
 
 
 load_dotenv()
-url = os.getenv("MSP_AUTH_URL")
-username = os.getenv("MSP_USERNAME")
-password = os.getenv("MSP_PASSWORD")
-scope = os.getenv("MSP_SCOPE")
+url = os.getenv("PRJ_AUTH_URL")
+username = os.getenv("PRJ_USERNAME")
+password = os.getenv("PRJ_PASSWORD")
+scope = os.getenv("PRJ_SCOPE")
 
 
 headers = {
