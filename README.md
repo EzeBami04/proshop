@@ -6,5 +6,5 @@ These project serve as a code repo for a manufacturing project integrating prosh
 
 Project architecture
 
-![imaage](utils/git_proshop.jpg)
+![image](utils/git_proshop.jpg)
 
